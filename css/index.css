@@ -5,7 +5,8 @@
 
 :root{
     --primary-color: #2e2e2e;
-    --primary-color-light: #3d3d3d;
+    --primary-color-light: #505050;
+    --primary-color-extra-light: #d7d7d7;
     --primary-color-dark: #242424;
     --background-color: #2e2e2e;
     --foreground-color: #faffff;
@@ -26,7 +27,7 @@
     --content-md: 1.2rem;
     --content-sm: 0.7rem;
     --content-xs: 0.5rem;
-    --border-radius-full: 100%;
+    --border-radius-full: 50px;
     --border-radius-lg: 10px;
     --border-radius-md: 5px;
     --border-radius-sm: 3px;
@@ -43,6 +44,12 @@ html{
     font-family: var(--primary-font);
 }
 
+/* CONTAINTER */
+.container{
+    width: 70%;
+    margin: auto;
+}
+
 /* HEADING CSS */
 h1{
     font-size: var(--header-lg);
@@ -56,7 +63,7 @@ h3{
     font-size: var(--header-sm);
 }
 
-/* COLOR CSS */
+/*FONT COLOR CSS */
 .primary-color{
     color: var(--primary-color);
 }

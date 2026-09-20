@@ -1,0 +1,22 @@
+.nav{
+    max-width: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    border: 1px solid var(--primary-color-extra-light);
+    padding: 15px 30px;
+    margin-top: 20px;
+}
+
+.nav a{
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: var(--border-radius-full);
+    transition: color 1s ease, font-weight 1s ease, background-color 1s ease;
+}
+
+.nav a:hover{
+    color:black;
+    font-weight: bold;
+    background-color: var( --primary-color-extra-light);
+}
