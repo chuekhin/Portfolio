@@ -1,0 +1,49 @@
+.card-area{
+    display:flex;
+    flex-direction:column;
+    gap: 10px;
+    padding: 30px;
+    margin-bottom: 55px;
+    background-color:  var(--primary-color-extra-light);
+    box-shadow: 0px 2px 4px 0px #00000033;
+    border-top: 3px solid transparent;
+    transition: border-top-color 0.5s ease-in-out, transform 0.4s ease-in-out;
+}
+
+.card-area:hover{
+    border-top-color: black;
+    transform: scale(1.01);
+}
+
+.card-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-title h3{
+    margin: 0;
+}
+
+.card-title span{
+    background: rgba(255, 255, 255, 0.638);
+}
+
+.card-title span:hover{
+    background: rgba(255, 255, 255, 0.474);
+}
+
+.card-text{
+
+}
+
+.card-links {
+    display: flex;
+    gap:15px;
+}
+
+.card-links a{
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+}

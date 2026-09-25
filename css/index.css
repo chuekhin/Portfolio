@@ -8,6 +8,7 @@
     --primary-color-light: #505050;
     --primary-color-extra-light: #d7d7d7;
     --primary-color-dark: #242424;
+    --secondary-color: #ffffff;
     --background-color: #2e2e2e;
     --foreground-color: #faffff;
     --error-color: #ff0000;
@@ -146,11 +147,19 @@ h3{
     border-radius: var(--border-radius-sm);
 }
 
+.border-b{
+    width: 3%;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--primary-color-light);
+}
+
 /* BUTTON CSS */
 .btn{
     border: none;
     cursor: pointer;
 }
+
+
 
 .btn-primary{
     background-color: var(--primary-color);
@@ -159,6 +168,23 @@ h3{
 
 .btn-primary:hover{
     background-color: var(--primary-color-dark);
+}
+
+.btn-primary-extra-light{
+    background-color: var(--primary-color-extra-light);
+}
+
+.btn-primary-extra-light:hover{
+    background-color: var(--primary-color-light);
+}
+
+.btn-secondary{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+.btn-secondary:hover{
+    background-color: var(--primary-color-extra-light);
 }
 
 .btn-warning{
