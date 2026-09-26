@@ -47,7 +47,7 @@ html{
 
 /* CONTAINTER */
 .container{
-    width: 70%;
+    width: 60%;
     margin: auto;
 }
 
@@ -158,8 +158,6 @@ h3{
     border: none;
     cursor: pointer;
 }
-
-
 
 .btn-primary{
     background-color: var(--primary-color);

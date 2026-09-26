@@ -1,0 +1,180 @@
+.grid-col-2{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 100px;
+}
+
+.skill-items{
+    margin-bottom: 20px;
+}
+
+.skill-item-area{
+    margin-bottom: 20px;
+    display: flex;
+    align-items:center;
+    gap: 50px;
+}
+
+.skill-item-logo{
+  width: 30px;
+}
+
+/* .skill-item-info{
+
+} */
+
+.skill-item-name{
+    margin-bottom: 10px;
+}
+
+.progress-bar{
+    width: 300px;
+    height: 8px;
+    background-color: var(--primary-color-light);
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.progress-bar div{
+    height:8px;
+    border-radius: 5px;
+    width: 0%;
+}
+
+.progress-bar div span{
+    height: 20px;
+    width: 28px;
+    font-size: 12px;
+    background-color: var(--foreground-color);
+    border-radius: 30px;
+    float: right;
+    margin-top: -7px;
+    margin-right: -20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.python{
+    background: blue;
+    animation: python 1s linear forwards;
+}
+
+.javascript{
+    background: yellow;
+    animation: javascript 1s linear forwards;
+}
+
+.html{
+    background: brown;
+    animation: html 1s linear forwards;
+}
+
+.lua{
+    background: #046e35;
+    animation: lua 1s linear forwards;
+}
+
+.git{
+    background: #d42121;
+    animation: git 1s linear forwards;
+}
+
+.solar2d{
+    background: orange;
+    animation: solar2d 1s linear forwards;
+}
+
+.vscode{
+    background: #5bbff5;
+    animation: vscode 1s linear forwards;
+}
+
+.pycharm{
+    background: #8d1bbe;
+    animation: pycharm 1s linear forwards;
+}
+
+.python span{
+    border: 1px solid blue;
+}
+
+.javascript span{
+    border: 1px solid yellow;
+}
+
+.html span{
+    border: 1px solid brown;
+}
+
+.lua span{
+    border: 1px solid #046e35;
+}
+
+.git span{
+    border: 1px solid #d42121;
+}
+
+.solar2d span{
+    border: 1px solid #046e35;
+}
+
+.vscode span{
+    border: 1px solid #5bbff5;
+}
+
+.pycharm span{
+    border: 1px solid #8d1bbe;
+}
+@keyframes python{
+    100%{
+        width: 80%;
+    }
+}
+
+@keyframes javascript{
+    100%{
+        width: 80%;
+    }
+}
+
+@keyframes html{
+    100%{
+        width: 80%;
+    }
+}
+
+@keyframes lua{
+    100%{
+        width: 80%;
+    }
+}
+
+@keyframes git{
+    100%{
+        width: 80%;
+    }
+}
+
+
+@keyframes solar2d{
+    100%{
+        width: 80%;
+    }
+}
+
+
+@keyframes vscode{
+    100%{
+        width: 80%;
+    }
+}
+
+
+@keyframes pycharm{
+    100%{
+        width: 80%;
+    }
+}
+
+
